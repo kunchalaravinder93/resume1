@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ravinder Kunchala — DevOps & Cloud Engineer portfolio." />
+  <title>Ravinder Kunchala — DevOps & Cloud Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">RK<span>.</span></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="eyebrow"><span class="dot"></span> Available for DevOps / Cloud opportunities</div>
+      <h1>Ravinder<br><em>Kunchala</em><span class="cursor">_</span></h1>
+      <div class="hero-bottom">
+        <p class="lead">DevOps & Cloud Engineer building reliable, automated and scalable infrastructure.</p>
+        <div class="hero-links">
+          <a class="button primary" href="#work">View my work <span>↗</span></a>
+          <a class="button ghost" href="#contact">Let's talk <span>→</span></a>
+        </div>
+      </div>
+      <div class="scroll-note"><span>01</span> Scroll to explore</div>
+    </section>
+
+    <section class="intro section">
+      <div class="section-number">01 / ABOUT</div>
+      <div class="intro-grid">
+        <h2>I turn infrastructure problems into <span>automated systems.</span></h2>
+        <div class="intro-copy">
+          <p>I work across AWS, Linux, CI/CD, containers, infrastructure automation, monitoring and production support.</p>
+          <p>My approach is practical: measure first, automate what repeats, improve reliability, and keep cloud spend under control.</p>
+          <p class="mono">Hyderabad, India · Open to relocation & remote</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="capabilities section">
+      <div class="section-number">02 / CAPABILITIES</div>
+
+      <article class="capability">
+        <div class="cap-index">01</div>
+        <div>
+          <h3>Cloud & Infrastructure</h3>
+          <p>Designing and operating AWS infrastructure with a focus on reliability, scalability, security and cost efficiency.</p>
+          <div class="tags"><span>AWS</span><span>EC2</span><span>VPC</span><span>IAM</span><span>Route 53</span><span>RDS</span><span>ALB</span><span>Auto Scaling</span></div>
+        </div>
+      </article>
+
+      <article class="capability">
+        <div class="cap-index">02</div>
+        <div>
+          <h3>DevOps & Automation</h3>
+          <p>Building repeatable delivery workflows and automating infrastructure and operational tasks.</p>
+          <div class="tags"><span>Jenkins</span><span>GitHub Actions</span><span>GitLab CI</span><span>Docker</span><span>Terraform</span><span>CloudFormation</span><span>Ansible</span><span>Bash</span></div>
+        </div>
+      </article>
+
+      <article class="capability">
+        <div class="cap-index">03</div>
+        <div>
+          <h3>Kubernetes & Platform</h3>
+          <p>Working with containerized workloads, scheduling, storage, access control, deployment and scaling.</p>
+          <div class="tags"><span>Kubernetes</span><span>EKS</span><span>Docker</span><span>ArgoCD</span><span>RBAC</span><span>PV / PVC</span><span>StatefulSets</span></div>
+        </div>
+      </article>
+
+      <article class="capability">
+        <div class="cap-index">04</div>
+        <div>
+          <h3>Observability & Production</h3>
+          <p>Finding the signal in logs and metrics, troubleshooting Linux systems and improving operational visibility.</p>
+          <div class="tags"><span>CloudWatch</span><span>Prometheus</span><span>Grafana</span><span>Datadog</span><span>ELK / EFK</span><span>Splunk</span><span>Linux</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="work" class="work section">
+      <div class="section-number">03 / SELECTED WORK</div>
+      <div class="work-header">
+        <h2>Projects that show<br><span>how I solve problems.</span></h2>
+        <p>Not just a list of tools — real infrastructure decisions, testing and outcomes.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project featured">
+          <div class="project-top"><span>01</span><span>AWS · GAME INFRASTRUCTURE</span></div>
+          <h3>Multiplayer Game Infrastructure</h3>
+          <p>Designed and tested AWS infrastructure for a 4v4 Unity multiplayer game using self-hosted Photon Fusion servers.</p>
+          <ul>
+            <li>Measured CPU, RAM and game-server vCPU usage under multiple rooms.</li>
+            <li>Evaluated EC2 sizing and the impact of sustained CPU workloads.</li>
+            <li>Planned Auto Scaling around room capacity and server utilisation.</li>
+            <li>Compared cost and capacity options for growth toward 1,000 CCU.</li>
+          </ul>
+          <div class="tags"><span>AWS EC2</span><span>Auto Scaling</span><span>Linux</span><span>Photon Fusion</span><span>Unity</span></div>
+        </article>
+
+        <article class="project">
+          <div class="project-top"><span>02</span><span>DEVSECOPS</span></div>
+          <h3>DevSecOps Platform</h3>
+          <p>Integrated CI/CD, containerisation, code quality and security checks into an automated delivery workflow.</p>
+          <div class="tags"><span>Jenkins</span><span>Docker</span><span>SonarQube</span><span>OWASP ZAP</span></div>
+        </article>
+
+        <article class="project">
+          <div class="project-top"><span>03</span><span>COST OPTIMISATION</span></div>
+          <h3>AWS Cost Optimisation</h3>
+          <p>Analysed utilisation and infrastructure patterns to identify right-sizing, scaling, Spot, Savings Plan and cleanup opportunities.</p>
+          <div class="metric"><strong>~35–40%</strong><small>potential savings target*</small></div>
+          <small class="fine">*Workload-dependent estimate; validate against actual usage and billing.</small>
+        </article>
+
+        <article class="project">
+          <div class="project-top"><span>04</span><span>AI + CLOUD</span></div>
+          <h3>AWS Career Decision Engine</h3>
+          <p>An experimental AI-assisted application exploring career paths and decision-making through interactive inputs and scenarios.</p>
+          <div class="tags"><span>AI</span><span>AWS</span><span>Three.js</span><span>Automation</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="experience section">
+      <div class="section-number">04 / EXPERIENCE</div>
+      <div class="timeline">
+        <article class="role">
+          <div class="role-date">2024 — PRESENT</div>
+          <div><h3>Freelance DevOps & Cloud Consultant</h3><p>Cloud infrastructure · CI/CD · Linux · AWS optimisation · Monitoring · Production support</p></div>
+        </article>
+        <article class="role">
+          <div class="role-date">2022 — 2024</div>
+          <div><h3>Cloud & DevOps Engineer · Wipro</h3><p>AWS infrastructure · Jenkins / GitHub Actions · Docker · Linux · Automation · Monitoring · DR</p></div>
+        </article>
+        <article class="role">
+          <div class="role-date">EARLIER</div>
+          <div><h3>Cloud Engineer · Concentrix</h3><p>Cloud and infrastructure operations · deployment support · automation · production environments</p></div>
+        </article>
+      </div>
+
+      <div class="toolbox">
+        <div class="toolbox-title">TOOLBOX</div>
+        <div class="toolbox-cloud">
+          AWS · Azure · GCP · Linux · Docker · Kubernetes · EKS · Jenkins · GitHub Actions · GitLab CI · Terraform · CloudFormation · Ansible · ArgoCD · Bash · Python · PowerShell · CloudWatch · Prometheus · Grafana · Datadog · PostgreSQL · DynamoDB · SonarQube · OWASP ZAP
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="section-number">05 / CONTACT</div>
+      <div class="contact-inner">
+        <p class="eyebrow">Have an infrastructure challenge?</p>
+        <h2>Let's build something<br><em>reliable.</em><span class="cursor">_</span></h2>
+        <p class="contact-copy">I'm open to DevOps, SRE, Platform Engineering and Cloud Infrastructure opportunities.</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:YOUR_EMAIL@example.com">Email me <span>↗</span></a>
+          <a class="button ghost" href="https://www.linkedin.com/in/ravinder-kunchala-71661b183/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a class="button ghost" href="https://github.com/kunchalaravinder93" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Ravinder Kunchala</span>
+    <span class="mono">DEVOPS · CLOUD · AUTOMATION</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
